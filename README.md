@@ -1,4 +1,4 @@
-# project
+# Project
 <br>
 This project is a 1:10 scale of a real world project.<br>
 
@@ -73,9 +73,9 @@ ongoing incremental delivery
 is it scalable (can the whole population use it)<br>
 
 
+## 4) Publish Results
+
 quick wins <-- small bets not big ones, fast feedback, exsisting componnets we can use <br>
-
 information and users at every level <br>
-
 case study? <br>
 
