@@ -9,7 +9,7 @@
 
 The project is a 1:10 scale of a real world project. <br>
 
-**Business Case:**    Made Tech has compositors. 
+**Business Case:**    Made Tech has competitors. 
 Previously 80% of government bids were won by 10 companies,
  today 8000+ companies win 90%? of bids. 
 With information of these other companies we can visualise Made Tech's market position
