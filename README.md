@@ -1,4 +1,4 @@
-# project
+# Project
 Save time 2 to 4 day iterations <br>
 low coupling, high cohesion <br>
 Agile + Fast Feedback + transparent <br>
