@@ -64,6 +64,10 @@ CI/ CD <br>
 ongoing incremental delivery
 is it scalable (can the whole population use it)<br>
 
+## 5) Publishing Results
+
+
+
 
 quick wins <-- small bets not big ones, fast feedback, exsisting componnets we can use <br>
 
