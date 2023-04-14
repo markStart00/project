@@ -67,7 +67,7 @@ Accessibility <br>
 Service standard <br>
 CI/ CD <br>
 
-## 4) Support
+## 4) Support (continuos delivery)
 + Incremental delivery of prioritised user stories.
 ongoing incremental delivery
 is it scalable (can the whole population use it)<br>
