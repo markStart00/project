@@ -31,7 +31,11 @@ Let me know what you think when you have time. <br>
 + A presentation of data valuable for making decision and tracking the effect of those decision (hopefully) in real time.
 
 **Scope, constraints, assumptions ...**: <br>
-**Quality Expectation:** To make something of actual value. <br>
+<br>
+**Quality Expectation:** <br>
++ To make something of actual value. <br>
++ Exceed expected standards the government sets for technology suppliers.
+
 **Associated Documents**: ... <br>
 
 
