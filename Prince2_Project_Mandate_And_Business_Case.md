@@ -1,4 +1,4 @@
-### Project Mandate
+## Project Mandate
 
 **Project Name**:    ?  <br>
 **Date:**    14/4/2023 <br>
@@ -33,6 +33,16 @@ Let me know what you think when you have time. <br>
 **Scope, constraints, assumptions ...**: <br>
 **Quality Expectation:** To make something of actual value. <br>
 **Associated Documents**: ... <br>
+
+
+## Project Mandate
++ need
++ value
++ risks
++ cost
++ time
+
+
 
 
 
