@@ -35,7 +35,12 @@ Let me know what you think when you have time. <br>
 **Associated Documents**: ... <br>
 
 
-## Project Mandate
+## Business Case
+
+**Outcome:** A change in the organsiation as a result of the project. <br>
+
+Deliver Value, Deliver customer satisfaction, <br> **Customer Satisfaction** is the most important metric at Made Tech <-------------
+
 + need
 + value
 + risks
