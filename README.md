@@ -7,7 +7,7 @@ This project is a 1:10 scale of a real world project.<br>
 
 
 Save time 2 to 4 day iterations <br>
-low coupling, high cohesion <br>
+Low coupling, high cohesion <br>
 Agile + Fast Feedback + transparent <br>
 1Team <br>
 
@@ -15,7 +15,8 @@ Agile + Fast Feedback + transparent <br>
 + Learn from users ( onboarding overviews - Ask Questions ).
 + Technical Landscape 
 + Mobilise ( Contract Start ) <br>
-<br>
+
+### Notes <br>
 User-centered design and minimise technical risk. <br>
 Exploring the problem space <br>
 What should we do first prioritise <br>
@@ -31,14 +32,14 @@ how to define measure value <br>
 security + it teams engagement <br>
 **Alpha Assessment** 36points?
 
-
-
 ## 2) 12 Day Alpha (prototype)
 + Refine journeys with users
 + Prototype Design Choices ( Interim Findings )
 + Embed Cabinet Staff (continues through stages 3 + 4) to ensure ongoing knowledge transfer.
 + Beta Road Map ( Alpha Assess )
 + **showcase** <br>
+
+### Notes <br>
 Mvp <br>
 testing hypotheses <br>
 can we solve the problem <br>
@@ -51,7 +52,6 @@ testing? <br>
 learning <-- sketching + testing <-- refining + planning.
 
 **Beta Assessment** ?
-
 
 
 ## 3) 36.5 Day Beta
@@ -74,8 +74,9 @@ is it scalable (can the whole population use it)<br>
 
 
 ## 4) Publish Results
+case study? <br>
 
+## Project Notes <br>
 quick wins <-- small bets not big ones, fast feedback, exsisting componnets we can use <br>
 information and users at every level <br>
-case study? <br>
 
