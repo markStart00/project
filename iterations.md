@@ -24,7 +24,7 @@ goals <br>
 
 clear roles?
 
-## iteration one
+## Iteration one
 discovery 
 learn from users (undetrstand what they are trying to achieve).
 techincal landscape
