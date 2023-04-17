@@ -1,0 +1,18 @@
+//
+// For guidance on how to add CSS and SCSS see:
+// https://prototype-kit.service.gov.uk/docs/adding-css-javascript-and-images
+// 
+
+// Add extra styles here
+.disabled:hover {
+	cursor: not-allowed;
+	color: red !important;
+}
+
+.live {
+	color: green;
+}
+
+.madetech {
+	color: green;
+}

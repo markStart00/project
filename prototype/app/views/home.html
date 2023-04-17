@@ -1,0 +1,208 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+Start page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block header %}
+<!-- Blank header with no service name for the start page -->
+{{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+<!--
+	{{ govukBreadcrumbs({
+	items: [
+	{
+	text: "Home",
+	href: "#"
+	},
+	{
+	text: "Section",
+	href: "#"
+	},
+	{
+	text: "Subsection"
+	}
+	]
+	}) }}
+-->
+
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+	<div class="govuk-grid-column-two-thirds">
+
+		<h1 class="govuk-heading-xl">
+			{{ serviceName }}
+		</h1>
+
+		<ul class="govuk-list govuk-list--bullet">
+			<li>View todays Market Position Data</li>
+			<li>Make a Decision</li>
+			<li>Retrieve a 'Decision' to compare the change</li>
+		</ul>
+
+		{{ govukButton({
+		text: "Make a Decision",
+		href: "/decision",
+		isStartButton: true
+		}) }}
+		{{ govukButton({
+		text: "Look up a Decision",
+		href: "/lookup",
+		isStartButton: true
+		}) }}
+
+
+
+		<h1 class="govuk-heading-xl">
+			Data
+		</h1>
+
+		<table class="govuk-table">
+			<caption class="govuk-table__caption govuk-table__caption--m">Competition</caption> 
+			<thead class="govuk-table__head">
+				<tr class="govuk-table__row">
+					<th scope="col" class="govuk-table__header"></th>
+					<th scope="col" class="govuk-table__header">Size</th>
+					<th scope="col" class="govuk-table__header">Stock Price</th>
+				</tr>
+			</thead>
+			<tbody class="govuk-table__body">
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">Accenture</th>
+					<td class="govuk-table__cell">725,000</td>
+					<td class="govuk-table__cell">$ 277</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">CapGemini</th>
+					<td class="govuk-table__cell">300,000</td>
+					<td class="govuk-table__cell">£ 215</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">Fujitsu</th>
+					<td class="govuk-table__cell">124,000</td>
+					<td class="govuk-table__cell">¥ 17,955</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">CGI</th>
+					<td class="govuk-table__cell">88,000</td>
+					<td class="govuk-table__cell">C$ 133</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">Kainos</th>
+					<td class="govuk-table__cell">2,600</td>
+					<td class="govuk-table__cell">€ 15</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">Agilisys</th>
+					<td class="govuk-table__cell">1,500</td>
+					<td class="govuk-table__cell">$ 83</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header madetech">Made Tech</th>
+					<td class="govuk-table__cell">470</td>
+					<td class="govuk-table__cell">£ 0.27 </td>
+				</tr>
+
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">?</th>
+					<td class="govuk-table__cell">?</td>
+					<td class="govuk-table__cell">?</td>
+				</tr>
+
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">?</th>
+					<td class="govuk-table__cell">?</td>
+					<td class="govuk-table__cell">?</td>
+				</tr>
+
+
+
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header"></th>
+					<th class="govuk-table__cell">+ 8,000 other competitors</th>
+				</tr>
+
+			</tbody>
+		</table>
+
+
+	</div>
+
+
+
+
+
+	<div class="govuk-grid-column-one-third">
+
+		<aside class="govuk-prototype-kit-common-templates-related-items" role="complementary">
+			<h2 class="govuk-heading-m" id="subsection-title">
+				Links	
+			</h2>
+			<nav role="navigation" aria-labelledby="subsection-title">
+				<ul class="govuk-list govuk-!-font-size-16">
+					<li>
+						<a href="https://github.com/markStart00/project" target="_blank">
+							Project Github 
+						</a>
+					</li>
+					<li>
+						<a href="https://miro.com/app/board/uXjVMTPEfGw=/" target="_blank">
+							Project Miro
+						</a>
+					</li>
+					<li>
+						<a href="https://trello.com/b/OzWhcdO3/trello-agile-sprint-board-project" target="_blank">
+							Project Trello
+						</a>
+					</li>
+					<li>
+						<a href="#" class="govuk-!-font-weight-bold disabled">
+							More <span class="govuk-visually-hidden">in Subsection</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+
+
+		<p>
+		The online service is also <a href="#" class="disabled">available in Welsh (ar gael yn Gymraeg)</a>.
+		</p>
+
+<table class="govuk-table">
+  <caption class="govuk-table__caption govuk-table__caption--m"></caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header"></th>
+      <th scope="col" class="govuk-table__header"></th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">DVLA</th>
+      <td class="govuk-table__cell live">live</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">MetOffice</th>
+      <td class="govuk-table__cell live">live</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header">?</th>
+      <td class="govuk-table__cell">status</td>
+    </tr>
+
+
+  </tbody>
+</table>
+
+
+	</div>
+</div>
+
+{% endblock %}
