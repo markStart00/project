@@ -11,8 +11,6 @@ Low coupling, high cohesion <br>
 Agile + Fast Feedback + transparent <br>
 1Team <br>
 
-"If you want to go fast, go alone, if you want to go far, go together”
-
 ## 1) 6 Day Discovery
 + Learn from users ( onboarding overviews - Ask Questions ).
 + Technical Landscape 
@@ -35,6 +33,9 @@ security + it teams engagement <br>
 **Alpha Assessment** 36points?
 
 ## 2) 12 Day Alpha (prototype)
+
+https://prototype-kit.service.gov.uk/docs/ <br>
+
 + Refine journeys with users
 + Prototype Design Choices ( Interim Findings )
 + Embed Cabinet Staff (continues through stages 3 + 4) to ensure ongoing knowledge transfer.
