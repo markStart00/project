@@ -11,6 +11,8 @@ Low coupling, high cohesion <br>
 Agile + Fast Feedback + transparent <br>
 1Team <br>
 
+"If you want to go fast, go alone, if you want to go far, go together”
+
 ## 1) 6 Day Discovery
 + Learn from users ( onboarding overviews - Ask Questions ).
 + Technical Landscape 
