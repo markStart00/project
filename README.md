@@ -78,6 +78,7 @@ is it scalable (can the whole population use it)<br>
 
 ## 4) Publish Results
 case study? <br>
+on boarding overview ? <br>
 
 ## Project Notes <br>
 quick wins <-- small bets not big ones, fast feedback, exsisting componnets we can use <br>
