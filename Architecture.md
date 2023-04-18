@@ -18,6 +18,8 @@
 
 [GDS Maps Flooding service](https://github.com/DEFRA/flood-app)
 
+https://github.com/DEFRA/design-standards/blob/master/Maps.md 
+
 ## Prototype
 
 [GDS Prototype Kit](https://prototype-kit.service.gov.uk/docs/) <br>
