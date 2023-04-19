@@ -34,7 +34,8 @@ security + it teams engagement <br>
 
 ## 2) 12 Day Alpha (prototype)
 
-https://prototype-kit.service.gov.uk/docs/ <br>
+[GDS prototype kit](https://prototype-kit.service.gov.uk/docs/) <br>
+[API cataloge list](https://www.api.gov.uk/index/#index)
 
 + Refine journeys with users
 + Prototype Design Choices ( Interim Findings )
