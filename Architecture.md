@@ -2,7 +2,8 @@
 
 [Clean Architecture](https://github.com/madetech/clean-architecture) <br>
 [Government Design Principles](https://www.gov.uk/guidance/government-design-principles) <br>
-[GOV.UK Design System](https://design-system.service.gov.uk/get-started/)
+[GOV.UK Design System](https://design-system.service.gov.uk/get-started/) <br>
+[GDS Community](https://design-system.service.gov.uk/community/)
 
 
 
