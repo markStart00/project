@@ -1,15 +1,15 @@
 # Project
 <br>
 This project is a 1:10 scale of a real world project.<br>
+"You can go fast alone, but we can go further together" <br>
 
 [Project Mandate + Business Case](https://github.com/markStart00/project/blob/main/Prince2_Project_Mandate_And_Business_Case.md)
 
-
-
-Save time 2 to 4 day iterations <br>
-Low coupling, high cohesion <br>
-Agile + Fast Feedback + transparent <br>
-1Team <br>
+Team:
++ Project Manager: ? <br>
++ Principle Engineer: ? <br>
++ Software Engineering: Mark Start <br>
++ Software Engineer: ?
 
 ## 1) 6 Day Discovery
 + Learn from users ( onboarding overviews - Ask Questions ).
@@ -83,4 +83,9 @@ on boarding overview ? <br>
 ## Project Notes <br>
 quick wins <-- small bets not big ones, fast feedback, exsisting componnets we can use <br>
 information and users at every level <br>
+
+Save time 2 to 4 day iterations <br>
+Low coupling, high cohesion <br>
+Agile + Fast Feedback + transparent <br>
+1Team <br>
 
