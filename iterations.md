@@ -15,7 +15,7 @@ risk managment <br>
 MVD <br>
 goals <br>
 
-### Scrum
+## Scrum + Kanban
 **Plan** <br>
 **Implement** <br>
 **Daily Scrum** <br>
