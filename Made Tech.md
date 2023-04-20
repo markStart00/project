@@ -12,6 +12,22 @@ Handbook <-- Public facing <br>
 + community of practices ++ 
 + chalet cordinators will help you to use time well in the chalet
 + chalet time is prorisited this project may be lower priority. 
++ A great oppertunity to get to know people
++ support other services ( bids )
++ learn a new skill.
+
+It is your responsibility to to make the most of your time. <br>
+You can request to support a service in an area. <br>
+
+## Chalet Trello board
+Anyone at Made Tech can add tasks. <br>
++ Label them for the community they are apart of <br>
++ their timeframe
++ how many people needed.
+
+You can complete tasks that match your time, interests and skills.  <br>
++ Move cards on the trello board and follow the doing tasks on the board instructions.
+
 
 kimble has an overview of the chalet.
 
