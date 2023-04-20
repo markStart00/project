@@ -44,26 +44,48 @@ Let me know what you think when you have time. <br>
 **Outcome:** A change in the organsiation as a result of the project. <br>
 
 Deliver Value, Deliver customer satisfaction, <br> **Customer Satisfaction** is the most important metric at Made Tech <-------------
+<br>
 ## Chalet priorites
+[Chalet priorities](https://github.com/madetech/handbook/blob/main/guides/chalet_time_policy.md)
 + find new opportunities on client teams or
 + new business and revenue, 
 + hiring activities.
 
+Implement these priorities in the tech stack of a billed clients project style and technology.
 
 
-+ need
-+ value
-+ risks
-+ cost
-+ time
+1 New opportunities on client teams
+  + Billed opportunities, where clients pay for someone’s time
+  + Invested opportunities, working on a client team, but not billed to begin with, showing value first
+Shadowing, 
+  + getting experience of how teams work
 
+2 New business and revenue
+  + Bid writing - 
+    + leading / pairing / shadowing / case studies / 
+    + research
+    + Support marketing team create content, like blogging, case studies, talks that promote Made Tech
 
+3 Hiring
+  + Pairing on interviews
+  + Outreach to potential candidates
 
+4 Research and development
+  + Product development
+  + Research projects
 
+5 Communities of practice
+  + Communities Improvements Backlog
 
+6 Learning time
+  + Reading
+  + Training courses
+  + Conferences
+  + Pairing and group learning
 
-
-
-
-
-
+7 Holiday that can flexibly be moved
+  + need
+  + value
+  + risks
+  + cost
+  + time
