@@ -44,6 +44,12 @@ Let me know what you think when you have time. <br>
 **Outcome:** A change in the organsiation as a result of the project. <br>
 
 Deliver Value, Deliver customer satisfaction, <br> **Customer Satisfaction** is the most important metric at Made Tech <-------------
+## Chalet priorites
++ find new opportunities on client teams or
++ new business and revenue, 
++ hiring activities.
+
+
 
 + need
 + value
