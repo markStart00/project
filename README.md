@@ -86,6 +86,12 @@ quick wins <-- small bets not big ones, fast feedback, exsisting componnets we c
 information and users at every level <br>
 
 Save time 2 to 4 day iterations <br>
+
+**Chalet time activities must be able to deliver some value in small blocks of time:***<br> 
++ half day, 
++ single day or 
++ 3–5 days, meaning chalet time can add value if someone joins a client team at short notice.
+
 Low coupling, high cohesion <br>
 Agile + Fast Feedback + transparent <br>
 1Team <br>
