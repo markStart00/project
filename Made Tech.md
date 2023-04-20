@@ -6,6 +6,13 @@ Handbook <-- Public facing <br>
 + [chalet policy](https://github.com/madetech/handbook/blob/main/guides/chalet_time_policy.md)
 + [chalet trello](https://trello.com/b/taj8yvLP/communities-improvements-backlog)
 
+**Chalet time policy** use the time well
++ time to build skills.
++ grow Made Tech.
++ community of practices ++ 
++ chalet cordinators will help you to use time well in the chalet
++ chalet time is prorisited this project may be lower priority. 
+
 ## Onboardings
 + People Team
 + Feedback Workshop
@@ -25,8 +32,7 @@ Handbook <-- Public facing <br>
   + Social Value at every step. 
   + Carbon reduction plan.
 + Kimble is the center for:
-  + Margins, **utlisation**, project statuses.
-  + "Heads of Capability Practices will report each week how people are using chalet time, as part of weekly utilisation meetings with Operations"
+  + Margins, utlisation, project statuses.
   + Data for strtegic reasons, setting up teams, in demand skills, bids.
   + real-time margins, revenue targets.
 + In the future gov.uk will be personalised.
