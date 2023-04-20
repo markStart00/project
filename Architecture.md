@@ -67,3 +67,7 @@ mobile friendly <br>
 
 services [microservices / SOA] ∈ {   ,     ,     }  <br>
 relational db's  <br>
+
+<br>
+
+google sheets <-- data visulisations.
