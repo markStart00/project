@@ -25,7 +25,8 @@ Handbook <-- Public facing <br>
   + Social Value at every step. 
   + Carbon reduction plan.
 + Kimble is the center for:
-  + Margins, utlisation, project statuses.
+  + Margins, **utlisation**, project statuses.
+  + "Heads of Capability Practices will report each week how people are using chalet time, as part of weekly utilisation meetings with Operations"
   + Data for strtegic reasons, setting up teams, in demand skills, bids.
   + real-time margins, revenue targets.
 + In the future gov.uk will be personalised.
