@@ -13,6 +13,8 @@ Handbook <-- Public facing <br>
 + chalet cordinators will help you to use time well in the chalet
 + chalet time is prorisited this project may be lower priority. 
 
+Scheduling will give the talent team 
+
 ## Onboardings
 + People Team
 + Feedback Workshop
