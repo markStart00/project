@@ -61,6 +61,7 @@ kimble has an overview of the chalet.
   + Data for strtegic reasons, setting up teams, in demand skills, bids.
   + real-time margins, revenue targets.
 + In the future gov.uk will be personalised.
++ A place to feel safe, able to grow, develop and belong.
 + We will do (x will be done) over we can do.
 + Hiring, upskilling and retaining great people.
 + We can only succeed if we are a trustworth partner (empathy, flexibility, pragmatism).
