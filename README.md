@@ -1,6 +1,6 @@
 # Project
 <br>
-This project is a 1:10 scale of a real world project.<br>
+This project is a 1:10ᵗʰ scale of a real world project.<br>
 "You can go fast alone, but we can go further together" <br>
 
 [Project Mandate + Business Case](https://github.com/markStart00/project/blob/main/Prince2_Project_Mandate_And_Business_Case.md)
