@@ -24,14 +24,12 @@
 https://github.com/DEFRA/design-standards/blob/master/Maps.md 
 
 ## Prototype
-
 [GDS Prototype Kit](https://prototype-kit.service.gov.uk/docs/) <br>
 [GDS Components](https://design-system.service.gov.uk/components/)
 
 The Prototype kit runs in nodeJs and is built with the Express framework.
 
 ## Frontend
-
 [AirTable of most popular front end programming languages at Made Tech](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viwq5wslL9Kkn39hT?blocks=hide)
 + [Top]() Javascript
 + React_JS
@@ -40,14 +38,13 @@ The Prototype kit runs in nodeJs and is built with the Express framework.
 + Angular
 + ... 
 
+[React frontend framework by Made Tech](https://frontend.madetech.com/)
+
+
 simple, one quick url, one simple page, organised with the most important data at the top. <br>
 threats, fraud,
 <br>
-html, css, javascript ?<br>
 ## Backend
-<br>
-ruby, c#, java ?<br>
-
 [AirTable of the most popular back-end programming languages used at Made Tech](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viwZ3AurkxDcfBOKn?blocks=hide)
 + [top]() C# (.Net Core)
 + Java (Spring) [tied for 2nd]()
@@ -106,6 +103,8 @@ AWS - AWS DB's -  <br>
 
 ## Notes
 
+traffic --> aws proxy ? --> set of services/ api's ?
+webhooks ? (gems ?) (ruby gems ?)
 
 that adds value to users <br>
 focus on user needs + maximum outcomes <br>
