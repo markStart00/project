@@ -5,6 +5,7 @@ Handbook <-- Public facing <br>
 + [chalet-time-team](https://madetechteam.slack.com/archives/C03F23K2RL0)
 + [chalet policy](https://github.com/madetech/handbook/blob/main/guides/chalet_time_policy.md)
 + [chalet trello](https://trello.com/b/taj8yvLP/communities-improvements-backlog)
++ [chalet projects trello](https://trello.com/b/7lSGB2Xw/chalet-community-board)
 
 **Chalet time policy** use the time well
 + time to build skills.
