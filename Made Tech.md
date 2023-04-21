@@ -1,6 +1,10 @@
 Knowledge Base <-- Internal facing <br>
 Handbook <-- Public facing <br>
 
+[AirTable of tech at Made Tech](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viwRgnrPsdPVIDl9u?blocks=hide) <br>
+[gds programming languages](https://gds-way.cloudapps.digital/standards/programming-languages.html)
+
+
 ## New Starter
 + [chalet-time-team](https://madetechteam.slack.com/archives/C03F23K2RL0)
 + [chalet policy](https://github.com/madetech/handbook/blob/main/guides/chalet_time_policy.md)
