@@ -53,7 +53,7 @@ threats, fraud,
 + Python
 + ... 
 
-microservices with kubernetes
+microservices with kubernetes "kubernetes all the way"
 
 ## Databases
 [AirTable of the most popular Db's used at Made Tech ](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viwcnFOxvwllKPRsj?blocks=hide)
@@ -61,6 +61,8 @@ microservices with kubernetes
 + cosmoDb (Azure)
 + mssql
 + s3 (AWS) ... DynamoDb ... RDB .
+
+database service ?
 
 ## Cloud
 [AirTable of the most popular deployment platforms used at Made Tech](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viwJN66JlefBduGiV?blocks=hide)
@@ -70,6 +72,9 @@ microservices with kubernetes
 + ...
 <br>
 <br>
+
+load balancer service ?
+
 
 ## CI/CD
 [AirTable of the most popular ci/cd's at Made Tech](https://airtable.com/appvySQ6qDwqcxLmt/tblhjjZSgBKI1qZR9/viw4ZLELCe5C7koqh?blocks=hide)
