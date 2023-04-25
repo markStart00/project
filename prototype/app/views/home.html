@@ -33,7 +33,23 @@ Start page template – {{ serviceName }} – GOV.UK Prototype Kit
 
 {% block content %}
 
+<div class="govuk-phase-banner">
+	<p class="govuk-phase-banner__content">
+	<strong class="govuk-tag govuk-phase-banner__content__tag">
+		prototype	
+	</strong>
+	<span class="govuk-phase-banner__text">
+		This is a new service – your <a class="govuk-link disabled" href="#">feedback</a> will help us to improve it.
+	</span>
+	</p>
+</div>
+
+<br>
+<br>
+<br>
+
 <div class="govuk-grid-row">
+
 	<div class="govuk-grid-column-two-thirds">
 
 		<h1 class="govuk-heading-xl">
@@ -58,11 +74,15 @@ Start page template – {{ serviceName }} – GOV.UK Prototype Kit
 		}) }}
 
 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
-		<h1 class="govuk-heading-xl">
-			Data
-		</h1>
-
+		<h1 class="govuk-heading-xl"> Data </h1>
 		<table class="govuk-table">
 			<caption class="govuk-table__caption govuk-table__caption--m">Competition</caption> 
 			<thead class="govuk-table__head">
@@ -126,11 +146,34 @@ Start page template – {{ serviceName }} – GOV.UK Prototype Kit
 				<tr class="govuk-table__row">
 					<th scope="row" class="govuk-table__header"></th>
 					<th class="govuk-table__cell">+ 8,000 other competitors</th>
+					<td class="govuk-table__cell"></td>
 				</tr>
 
 			</tbody>
 		</table>
 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div id="apiTable"> </div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div id="apiTable2"></div>
+
+
+<p> <b>Date:</b> {{ currentDate }} </p>
 
 	</div>
 
@@ -175,31 +218,31 @@ Start page template – {{ serviceName }} – GOV.UK Prototype Kit
 		The online service is also <a href="#" class="disabled">available in Welsh (ar gael yn Gymraeg)</a>.
 		</p>
 
-<table class="govuk-table">
-  <caption class="govuk-table__caption govuk-table__caption--m"></caption>
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header"></th>
-      <th scope="col" class="govuk-table__header"></th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">DVLA</th>
-      <td class="govuk-table__cell live">live</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">MetOffice</th>
-      <td class="govuk-table__cell live">live</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">?</th>
-      <td class="govuk-table__cell">status</td>
-    </tr>
+		<table class="govuk-table">
+			<caption class="govuk-table__caption govuk-table__caption--m"></caption>
+			<thead class="govuk-table__head">
+				<tr class="govuk-table__row">
+					<th scope="col" class="govuk-table__header"></th>
+					<th scope="col" class="govuk-table__header"></th>
+				</tr>
+			</thead>
+			<tbody class="govuk-table__body">
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">DVLA</th>
+					<td class="govuk-table__cell live">live</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">MetOffice</th>
+					<td class="govuk-table__cell live">live</td>
+				</tr>
+				<tr class="govuk-table__row">
+					<th scope="row" class="govuk-table__header">?</th>
+					<td class="govuk-table__cell">status</td>
+				</tr>
 
 
-  </tbody>
-</table>
+			</tbody>
+		</table>
 
 
 	</div>

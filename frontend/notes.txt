@@ -1,0 +1,30 @@
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd test
+  npm start
+
+-------------------------------------------------------------------------
+
+React is used to make single page application UI's. It is not a framework but a library.
+
+jsx <-- react's html
+react manages state of the application
+when the state changes react re-renders things for us
+
+# to add @madetech/frontend 
+	npm i --save @madetech/frontend
+	npm i sass --save-dev
+	import '@madetech/frontend/all.scss'		in 		App.js

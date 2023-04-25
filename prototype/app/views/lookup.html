@@ -16,15 +16,25 @@ href: "javascript:window.history.back()"
 <div class="govuk-grid-row">
 	<div class="govuk-grid-column-two-thirds">
 
-		<h1 class="govuk-heading-l">
-			Reference Number
-		</h1>
 
+		<!--
 		<form class="form" action="/report" method="post">
+		-->
 
-			<p>
-			insert
-			</p>
+			<div class="govuk-form-group">
+				<h1 class="govuk-label-wrapper">
+					<label class="govuk-label govuk-label--l" for="account-number">
+						Please enter the Decision number
+					</label>
+				</h1>
+				<div id="account-number-hint" class="govuk-hint">
+					Must be between 1 and ? digits long
+				</div>
+
+				<input class="govuk-input govuk-input--width-10" id="decision-number-input" name="decision-number" type="text" spellcheck="false" aria-describedby="account-number-hint" inputmode="numeric">
+			</div>
+
+
 
 			<!--
 				{{ govukButton({
@@ -36,7 +46,9 @@ href: "javascript:window.history.back()"
 				Search	
 			</button>
 
+			<!--
 		</form>
+			-->
 
 	</div>
 </div>
