@@ -1,0 +1,11 @@
+app:
+  datasource:
+    main:
+      driver-class-name: org.postgresql.Driver
+      jdbc-url: jdbc:postgresql://localhost:5432/questions
+      password: 'password'
+      pool-size: 30
+      username: postgres
+
+server:
+  port: 8080

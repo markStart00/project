@@ -3,7 +3,7 @@
 
 import React, { useState, useRef } from 'react';
 import QuestionsAndAnswersList from './QuestionsAndAnswersList';
-// import '@madetech/frontend/all.scss'
+import '@madetech/frontend/all.scss'
 import { Footer, Header, Jumbotron, SiteMap, TopBar } from '@madetech/frontend'
 
 
@@ -57,7 +57,6 @@ function App( { children} ) {
 		return (
 
 						<>
-{/*
       <TopBar />
 
       <Header>
@@ -69,7 +68,7 @@ function App( { children} ) {
           two<br /> link
         </a>
       </Header>
-*/}
+
       <Jumbotron>
         <div className="container">
           <div className="row">
@@ -92,10 +91,8 @@ function App( { children} ) {
 																			downvoteQ={downvoteQ}
 																			/>
 						</div>
-{/*
       <SiteMap />
       <Footer />
-*/}
 						</>
 
 				)
