@@ -28,4 +28,13 @@ public class QuestionsService {
     public boolean upvoteQuestioninDb( Integer questionId ) {
         return questionsDao.upvoteQuestionInDb( questionId );
     }
+
+    public boolean addAQuestionToTheDb(String text ) {
+
+        // todo: check if valid question, check if safe sql
+
+        return questionsDao.addQuestionToDb( text );
+
+
+    }
 }

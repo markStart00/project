@@ -22,8 +22,7 @@
 #      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
 #      PGADMIN_CONFIG_SERVER_MODE: 'False'
 #    volumes:
-#      - pgadmin:/var/lib/pgadmin
-#
+#      - pgadmin:/var/lib/pgadmin#
 #    ports:
 #      - "5050:80"
 #    networks:

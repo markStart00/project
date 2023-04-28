@@ -73,6 +73,14 @@ public class QuestionsDataAccessObject implements QuestionsDao {
 
 
 
+    @Override
+    public boolean addQuestionToDb( String text ) {
+
+        return false;
+
+
+    }
+
 
 
 

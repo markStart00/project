@@ -3,9 +3,24 @@ delete the database not the container
 docker stop questions
 docker rm questions
 docker run --name questions -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
+docker run --name answers -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mysql
+
 docker exec -it postgres /bin/bash
 psql -U postgres
 
+docker exec -it answers /bin/bash
+mysql -p
 
-echo '{ "questionId":"1" }' | http PUT localhost:8080/api/v1/questions/upvote/1
+
+http locahost:8080/api/v1/questions
+echo '{ "questionId":"1" }' | http PUT localhost:8080/api/v1/questions/upvote
+
+http localhost:8081/api/v1/answers
+echo '{ "text": "text", "questionId":"3" }' | http POST localhost:8081/api/v1/answers/post 
+echo '{ "questionId":"1" }' | http get localhost:8081/api/v1/answers/requestAnswers
+
+
+
+
+
 

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo '{ "text": "there is a link ... ", "questionId":"1" }' | http POST localhost:8081/api/v1/answers/post
+echo '{ "text": "yes ... ", "questionId":"1" }' | http POST localhost:8081/api/v1/answers/post
+echo '{ "text": "nice ... ", "questionId":"1" }' | http POST localhost:8081/api/v1/answers/post
+
+echo '{ "text": "it is ... ", "questionId":"2" }' | http POST localhost:8081/api/v1/answers/post
+echo '{ "text": "yes and also ...", "questionId":"2" }' | http POST localhost:8081/api/v1/answers/post
+
+echo '{ "text": "it is past 4:30 and it is friday ... ", "questionId":"3" }' | http POST localhost:8081/api/v1/answers/post
+

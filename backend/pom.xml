@@ -16,6 +16,7 @@
 
   <modules>
     <module>questions</module>
+    <module>answers</module>
   </modules>
 
 
@@ -37,6 +38,8 @@
         <scope>import</scope>
         <type>pom</type>
       </dependency>
+
+
 
     </dependencies>
 

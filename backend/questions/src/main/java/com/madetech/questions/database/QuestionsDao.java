@@ -8,6 +8,9 @@ public interface QuestionsDao {
 
     List<Question> retrieveAllQuestionsFromDb();
     boolean upvoteQuestionInDb(Integer questionId );
+    boolean addQuestionToDb(String text);
+
+
 
 
 }

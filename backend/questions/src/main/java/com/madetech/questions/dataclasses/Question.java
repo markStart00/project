@@ -1,7 +1,10 @@
 package com.madetech.questions.dataclasses;
 
+import java.io.Serializable;
 
-public class Question {
+
+// serializable helps transform the java class into different types of stream for the db for the json
+public class Question implements Serializable {
 
     private Integer id;
     private String text;
