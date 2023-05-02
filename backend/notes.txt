@@ -1,0 +1,41 @@
+delete the database not the container
+
+docker stop questions
+docker rm questions
+docker run --name questions-db -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
+docker run --name answers-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mysql
+
+docker exec -it questions-db /bin/bash
+psql -U postgres
+CREATE DATABASE questions;
+
+docker exec -it answers-db /bin/bash
+mysql -p
+CREATE DATABASE answers;
+
+docker image build -t answers-app-image .
+###    docker run --network="host" --name answers-app -p 8081:8081 -d answers-app-image
+docker run --network="host" --name answers-app -d answers-app-image
+
+
+docker image build -t questions-app-image .
+docker run --network="host" --name questions-app -d questions-app-image
+
+docker logs answers-app
+docker logs questions-app
+
+
+http localhost:8080/api/v1/questions
+echo '{ "questionId":"1" }' | http PUT localhost:8080/api/v1/questions/upvote
+
+http localhost:8081/api/v1/answers
+echo '{ "text": "text", "questionId":"3" }' | http POST localhost:8081/api/v1/answers/post 
+echo '{ "questionId":"1" }' | http get localhost:8081/api/v1/answers/requestAnswers
+
+-- mvn ---------------------------------------
+
+mvn clean
+mvn package
+
+
+
