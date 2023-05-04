@@ -45,6 +45,9 @@ yarn build
 serve -s build 			serve production ./build/static 		(react just makes static html,css,js)  
 
 docker image build -t react-app-image .
+docker run --network="host" --name react-app -d react-app-image
+
+
 
 
 
