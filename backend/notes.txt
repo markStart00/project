@@ -26,16 +26,29 @@ docker logs questions-app
 
 
 http localhost:8080/api/v1/questions
-echo '{ "questionId":"1" }' | http PUT localhost:8080/api/v1/questions/upvote
+ask question									echo '{ "text": "how can i ..." }' | http POST localhost:8080/api/v1/questions/post
+upvote question								echo '{ "questionId":"1" }' | http PUT localhost:8080/api/v1/questions/upvote
 
 http localhost:8081/api/v1/answers
-echo '{ "text": "text", "questionId":"3" }' | http POST localhost:8081/api/v1/answers/post 
-echo '{ "questionId":"1" }' | http get localhost:8081/api/v1/answers/requestAnswers
+post answer									echo '{ "text": "text", "questionId":"3" }' | http POST localhost:8081/api/v1/answers/post 
+request answers for q				echo '{ "questionId":"1" }' | http get localhost:8081/api/v1/answers/requestAnswers
+upvote answer								echo '{ "answerId": "1" }' | http PUT localhost:8081/api/v1/answers/upvote
 
 -- mvn ---------------------------------------
 
 mvn clean
 mvn package
+
+-- react -------------------------------------
+
+yarn build
+serve -s build 			serve production ./build/static 		(react just makes static html,css,js)  
+
+docker image build -t react-app-image .
+
+
+
+
 
 
 

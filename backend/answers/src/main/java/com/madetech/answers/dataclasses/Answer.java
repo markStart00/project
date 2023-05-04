@@ -13,6 +13,7 @@ public class Answer {
     @GeneratedValue( strategy = GenerationType.IDENTITY )
     @Column( nullable = false, updatable = false )
     private Integer id;
+    @Column(unique = true)
     private String text;
     private Integer upvotes;
     @Column( nullable = false, updatable = false )

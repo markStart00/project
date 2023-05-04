@@ -2,10 +2,13 @@ package com.madetech.questions.database;
 
 import com.madetech.questions.dataclasses.Question;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.support.GeneratedKeyHolder;
+import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.PreparedStatement;
 import java.util.List;
 import java.util.Optional;
 
@@ -76,8 +79,16 @@ public class QuestionsDataAccessObject implements QuestionsDao {
     @Override
     public boolean addQuestionToDb( String text ) {
 
-        return false;
+        int defaultUpvotes = 1;
 
+        var sql =   "INSERT INTO questions( text, upvotes ) " +
+                    "VALUES ( '" + text + "', " + defaultUpvotes + ");";
+
+        int responseCode = jdbcTemplate.update( sql );
+
+        // todo: throws errors for duplicate keys without returning false?
+        if ( responseCode == 1) return true;
+        else return false;
 
     }
 

@@ -10,7 +10,7 @@ public class QuestionsApplication {
 
         System.out.println("start");
         SpringApplication.run(QuestionsApplication.class, args);
-        System.out.println("");
+        System.out.println();
         System.out.println("up");
 
     }

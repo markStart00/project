@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -26,30 +27,57 @@ public class QuestionsService {
 
 
 
+
+
+
+
     public List<Question> getAllQuestionsFromDb() {
 
-        // todo: Answers from Answer service
 
-        Iterable<Answer> allAnswersFromAnswerService =  restTemplate.getForObject(
+        List<Question> questions = questionsDao.retrieveAllQuestionsFromDb();
+
+        Answer[] answers = restTemplate.getForObject(
                 "http://localhost:8081/api/v1/answers/all",
-                Iterable.class
-        );
+                    Answer[].class
+                );
+
+//         todo: test the correct errors to throw, configure httpTemplate timeouts`
+//      if ( allAnswersFromAnswerService == null ) {
+//            throw new IllegalStateException("all answers request from all answersMicoService returned null");
+//        }
 
 
+        for ( Question question : questions ) {
 
-        System.out.println( allAnswersFromAnswerService );
-        if ( allAnswersFromAnswerService == null ) {
+            List<Answer> questionsAnswers = new ArrayList<>();
 
-            throw new IllegalStateException("all answers request from all answersMicoService returned null");
+            for ( Answer answer : answers ) {
+                if ( answer.getQuestionId() == question.getId())   questionsAnswers.add( answer );
+            }
+
+            question.setAnswers( questionsAnswers );
 
         }
 
 
-
-        return questionsDao.retrieveAllQuestionsFromDb();
+        return questions;
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public boolean upvoteQuestioninDb( Integer questionId ) {

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("api/v1/questions")
 public class QuestionsController {
@@ -19,9 +20,6 @@ public class QuestionsController {
     @Autowired
     private QuestionsService questionsService;
 
-
-    // https://www.youtube.com/watch?v=1aWhYEynZQw&list=PLwvrYc43l1Mwqpf9i-1B1gXfMeHOm6DeY&index=7
-    // 33:17 ?
 
     @GetMapping
     public List<Question> requestAllQuestions() {
@@ -32,6 +30,9 @@ public class QuestionsController {
 
     @PostMapping( "/post" )
     public ResponseEntity<?> requestPostQuestion( @RequestBody AddAQuestionRequest addAQuestionRequest ) {
+
+        System.out.println("here");
+        System.out.println( addAQuestionRequest.getText() );
 
         if ( questionsService.addAQuestionToTheDb( addAQuestionRequest.getText() ) ) return new ResponseEntity<>( HttpStatus.OK );
         else return new ResponseEntity<>( HttpStatus.BAD_REQUEST );

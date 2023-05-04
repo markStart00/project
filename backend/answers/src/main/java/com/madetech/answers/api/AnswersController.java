@@ -4,6 +4,7 @@ package com.madetech.answers.api;
 import com.madetech.answers.dataclasses.AddAnAnswerRequest;
 import com.madetech.answers.dataclasses.AllAnswersForQuestionRequest;
 import com.madetech.answers.dataclasses.Answer;
+import com.madetech.answers.dataclasses.UpvoteRequest;
 import com.madetech.answers.logic.AnswersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
+@CrossOrigin
 @RestController
 @RequestMapping("api/v1/answers")
 public class AnswersController {
@@ -31,12 +32,18 @@ public class AnswersController {
     }
 
     @PostMapping( "/post" )
-    public ResponseEntity<?> requestPostQuestion(@RequestBody AddAnAnswerRequest addAnAnswerRequest ) {
+    public ResponseEntity<?> requestPostAnswer(@RequestBody AddAnAnswerRequest addAnAnswerRequest ) {
         if ( answersService.addAnAnswerToTheDb( addAnAnswerRequest.getText(), addAnAnswerRequest.getQuestionId() )) return new ResponseEntity<>( HttpStatus.OK );
         else return new ResponseEntity<>( HttpStatus.BAD_REQUEST );
     }
 
+    @PutMapping("/upvote")
+    public ResponseEntity<?> requestUpvoteAnswer(@RequestBody UpvoteRequest upvoteRequest ) {
 
+        if ( answersService.upvoteAnswerinDb( upvoteRequest.getAnswerId() ) ) return new ResponseEntity<>( HttpStatus.OK );
+        else return new ResponseEntity<>( HttpStatus.BAD_REQUEST );
+
+    }
 
 
 }
