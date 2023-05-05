@@ -1,3 +1,4 @@
+docker image build -t questions-app-image .
 delete the database not the container
 
 docker stop questions
@@ -19,6 +20,7 @@ docker run --network="host" --name answers-app -d answers-app-image
 
 
 docker image build -t questions-app-image .
+docker image build -t markstart00/questions-app-aws:latest .
 docker run --network="host" --name questions-app -d questions-app-image
 
 docker logs answers-app
@@ -46,6 +48,29 @@ serve -s build 			serve production ./build/static 		(react just makes static htm
 
 docker image build -t react-app-image .
 docker run --network="host" --name react-app -d react-app-image
+
+-- docker aws ---------------------------------
+
+docker tag react-app-image:latest markstart00/react-app-image
+docker tag questions-app-image:latest markstart00/questions-app-image
+docker tag answers-db-image:latest markstart00/answers-app-image
+
+docker login -u markstart00
+
+docker push markstart00/react-app-image:latest
+docker push markstart00/questions-app-image:latest
+docker push markstart00/answers-app-image:latest
+
+docker run --network="host" --name react-app -d markstart00/react-app-aws:latest
+docker run --network="host" --name answers-app -d markstart00/answers-app-aws:latest
+docker run --network="host" --name questions-app -d markstart00/questions-app-aws:latest
+
+docker run --name questions-db -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
+docker run --name answers-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -d mysql
+
+-- curl --------------------------------------
+
+curl 127.31.8.103/16:8080/api/v1/questions
 
 
 

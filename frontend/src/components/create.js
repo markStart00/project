@@ -7,7 +7,7 @@ export default function Create() {
     const [question, setQuestion] = useState('');
 
 		const postData = () => {
-			axios.post(`http://localhost:8080/api/v1/questions/post`, { text: question } ).then( (response) => console.log( response ) );
+			console.log('not implementd');
 		}
 
     return (

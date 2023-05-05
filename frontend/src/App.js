@@ -13,6 +13,7 @@ function App() {
 												<Routes>
 												{/* <Route path="/create" element={<Create />} /> */}
 							          <Route path='/' element={<Read /> } />
+												<Route path="/create" element={<Create />} /> 
 												</Routes>
 
 												</div>

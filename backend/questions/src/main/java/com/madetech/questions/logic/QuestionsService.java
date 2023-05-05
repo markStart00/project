@@ -36,10 +36,11 @@ public class QuestionsService {
 
         List<Question> questions = questionsDao.retrieveAllQuestionsFromDb();
 
-        Answer[] answers = restTemplate.getForObject(
-                "http://localhost:8081/api/v1/answers/all",
+        try {
+            Answer[] answers = restTemplate.getForObject(
+                    "http://13.50.239.167:8081/api/v1/answers/all",
                     Answer[].class
-                );
+            );
 
 //         todo: test the correct errors to throw, configure httpTemplate timeouts`
 //      if ( allAnswersFromAnswerService == null ) {
@@ -47,18 +48,21 @@ public class QuestionsService {
 //        }
 
 
-        for ( Question question : questions ) {
+            for (Question question : questions) {
 
-            List<Answer> questionsAnswers = new ArrayList<>();
+                List<Answer> questionsAnswers = new ArrayList<>();
 
-            for ( Answer answer : answers ) {
-                if ( answer.getQuestionId() == question.getId())   questionsAnswers.add( answer );
+                for (Answer answer : answers) {
+                    if (answer.getQuestionId() == question.getId()) questionsAnswers.add(answer);
+                }
+
+                question.setAnswers(questionsAnswers);
+
             }
-
-            question.setAnswers( questionsAnswers );
-
+        } catch (Exception e) {
+            System.out.println(e);
+            System.out.println("error getting answers from answers location");
         }
-
 
         return questions;
 
