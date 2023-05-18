@@ -74,6 +74,12 @@ curl 127.31.8.103/16:8080/api/v1/questions
 
 
 
+-- aws ecr -----------------------------------
+
+aws ecr create-repository --repository-name test --image-scanning-configuration scanOnPush=true --region eu-west-2
+docker tag   markstart00/react-app-aws:latest   230868066496.dkr.ecr.eu-west-2.amazonaws.com/react-app-aws:latest
+docker push 230868066496.dkr.ecr.eu-west-2.amazonaws.com/react-app-aws:latest
+
 
 
 

@@ -38,7 +38,8 @@ public class QuestionsService {
 
         try {
             Answer[] answers = restTemplate.getForObject(
-                    "http://13.50.239.167:8081/api/v1/answers/all",
+                    "http://13.53.135.15:8081/api/v1/answers/all",
+//                    "http://localhost:8081/api/v1/answers/all",
                     Answer[].class
             );
 

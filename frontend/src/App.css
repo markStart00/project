@@ -12,12 +12,8 @@
   flex-direction: column;
 }
 
-.main-header{
-  font-family: 'Montserrat', sans-serif;
-}
-
-.header {
-	padding-top: 30px;
+.heading {
+	padding: 20px;
 	text-align: center;
 }
 
@@ -43,13 +39,24 @@
 .question {
 	padding: 5px;
 	margin: 5px;
+	margin-bottom: 30px;
 	border: solid 1px white;
+}
+
+.questionHeader {
+	border: solid 1px white;
+	padding-left: 5px;
 }
 
 .answer {
 	padding: 5px;
 	margin: 5px;
 	border: solid 1px white;
+	margin-left: 30px;
+}
+
+.answerText {
+	margin: 10px;
 }
 
 
@@ -62,18 +69,9 @@
 	float: left;
 }
 
-.questionLikes {
-	float: right;	
-}
 
 
-.answerText {
-	float: left;
-}
 
-.answerLikes {
-	float: right;
-}
 
 
 
