@@ -14,12 +14,16 @@ docker exec -it answers-db /bin/bash
 mysql -p
 CREATE DATABASE answers;
 
-docker image build -t answers-app-image .
+docker image build -t answers-mircoservice .
+docker run --network="host" --name answers-microservice -d answers-mircoservice
+
 ###    docker run --network="host" --name answers-app -p 8081:8081 -d answers-app-image
 docker run --network="host" --name answers-app -d answers-app-image
 
 
-docker image build -t questions-app-image .
+docker image build -t questions-microservice .
+docker run --network="host" --name questions-microservice -d questions-microservice
+
 docker image build -t markstart00/questions-app-aws:latest .
 docker run --network="host" --name questions-app -d questions-app-image
 
