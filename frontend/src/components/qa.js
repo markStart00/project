@@ -63,7 +63,7 @@ export default function QA() {
 
       <div>
 				<div className="heading">
-        	<h2> Frequently Asked Questions </h2>
+        	<h2> FAQ's </h2>
 				</div>
         <div className="list"> {
           APIData.map( (question) => {
@@ -74,13 +74,13 @@ export default function QA() {
 												<GridRow>
   												<GridCol setWidth="two-thirds">
     												<div>		
-															<h4 className="questionText">{ question.text } </h4> 
+															<h3 className="questionText">{ question.text } </h3> 
 														</div>
   												</GridCol>
   												<GridCol setWidth="one-third">
    	 												<div>
 															<div> { question.upvotes  } Likes </div>
-																<Button type="submit" onClick={ (questionId) => upvoteQuestion( question.id ) }>  Like </Button>
+																<Button buttonColour="#1d70b8" type="submit" onClick={ (questionId) => upvoteQuestion( question.id ) }>  Like </Button>
     												</div>
   												</GridCol>
 												</GridRow>
@@ -93,19 +93,18 @@ export default function QA() {
 												<GridRow>
   												<GridCol setWidth="two-thirds">
     												<div>		
-															<h5 className="answerText"> { answer.text } </h5>
+															<h4 className="answerText"> { answer.text } </h4>
     												</div>
   												</GridCol>
   												<GridCol setWidth="one-third">
    	 												<div>
 
 															<div className="likes"> { answer.upvotes } Likes </div>
-															<Button type="submit" onClick={ (answerId) => upvoteAnswer( answer.id ) }>  Like </Button>
+															<Button buttonColour="#1d70b8" type="submit" onClick={ (answerId) => upvoteAnswer( answer.id ) }>  Like </Button>
 
     												</div>
   												</GridCol>
 												</GridRow>
-
 
 
 											</div>   

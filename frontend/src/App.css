@@ -11,9 +11,36 @@
 }
 
 .page {
+	padding-top: 20px;
 	height: 720px;
 }
 
+.dataPage {
+	padding-top: 20px;
+	height: 100%;
+}
+
+.content {
+	padding: 30px;
+}
+
+.intro {
+	padding: 30px;
+}
+
+.infoTable {
+	margin-left: 30px;
+}
+
+.linkList {
+	padding-top: 10px !important; 
+	padding-left: 30px !important; 
+}
+
+.quickLinks {
+	padding-top: 100px !important;
+	padding: 30px;
+}
 
 .disclosure {
 	color: red;
@@ -24,19 +51,68 @@
 	padding-left: 10px;
 }
 
+.profilePic {
+	height: 48px;
+	width: 48px;
+}
+
+.icon {
+	width: 35px;
+	border: solid 1px transparent;
+	border-radius: 4px;
+}
+
+.iconList {
+	padding-left: 40px !important;
+}
+
+.iconRow {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.contact {
+	padding-left: 30px !important;
+}
+
+.diagrams {
+	padding: 20px;
+}
+
+.tables {
+	margin-left: 30px;
+}
 
 
 
+.diagram {
+	width: 100%;
+	border: solid 1px black;
+	border-radius: 3px;
+	margin : 5px;
+}
+
+.projectPng {
+	height: 235px;
+	width: 300px;
+}
+
+.images {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 
 /* --- home --- */
 
 .leftSide {
-	padding-right: 10px;
+	padding-right: 100px;
 	padding-left: 10px;
 }
 .rightSide {
-	padding-left: 10px;
+	padding-left: 100px;
 	padding-right: 10px;
 	width: 500px !important;
 }
@@ -78,23 +154,23 @@
 }
 
 .question {
-	padding: 5px;
-	margin: 5px;
 	margin-bottom: 30px;
+	border: solid 1px black;
+	border-radius: 3px;
 }
 
 .questionHeader {
-	padding: 5px;
+	padding: 4px;
 	border: solid 1px white;
 	background-color: black;
 	color: white;
 	border: solid 1px black;
-	border-radius: 3px;
 	height: 75px;
 }
 
 .answerQuestion {
-	width: 50%;
+	width: 80%;
+	padding-left: 30px;
 }
 
 .answer {
