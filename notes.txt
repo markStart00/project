@@ -1,3 +1,6 @@
+
+
+
 # Project
 <br>
 This project is a 1:10ᵗʰ scale of a real world project.<br>
@@ -106,3 +109,15 @@ Agile + Fast Feedback + transparent <br>
 
 + [Learn data](https://sites.google.com/madetech.com/data-capability/home)
 
++ [DDaT technical role descriptions in the government](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework)
+
++ [ Government public sector project market place ( 2023 ) ] ( https://www.digitalmarketplace.service.gov.uk/  )
++ [ ( 2024 )   ] ( https://auth.identify.crowncommercial.gov.uk/login?state=hKFo2SBNVFdka2dzSnkyX19MbGxzMEdVdGFxZHBwQlhhUHROWqFupWxvZ2luo3RpZNkgMUYtZUd4TGxIQ2UtMExMRnFlODZwc3p3XzVTZHZicWyjY2lk2SA4RjZzWHVOdDFMdFdTUFN4VmRuZHU4Y1lNWWN5ZlNMcQ&client=8F6sXuNt1LtWSPSxVdndu8cYMYcyfSLq&protocol=oauth2&response_type=code&scope=email%20profile%20openid%20offline_access&redirect_uri=https%3A%2F%2Fidentify.crowncommercial.gov.uk%2Fauthsuccess&code_challenge_method=S256&code_challenge=NJXH-8QRgVfj3CbupMKiq8Cvqn1xwzPDFUPDGAbrd0g ) 
+
++ [ Digital Marketplace Sales visulization  ] ( https://app.powerbi.com/view?r=eyJrIjoiNjhlYmE2M2EtZWFiMy00ZDc4LWE2MWMtOTQ2NDlmZTQ5YjExIiwidCI6IjlmOGMwZDc5LTNlODctNGNkMy05Nzk5LWMzNDQzMTQ2ZWE1ZSIsImMiOjh9 ) 
+
++ [ service-standard  ] ( https://www.gov.uk/service-manual/service-standard  )
+
++ [ service-manual  ] ( https://www.gov.uk/service-manual  )
+
++ [ data public government ] ( https://www.data.gov.uk/search?q=forestry&filters%5Bpublisher%5D=&filters%5Btopic%5D=&filters%5Bformat%5D=&sort=best   )
